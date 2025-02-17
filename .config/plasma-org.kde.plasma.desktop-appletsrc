@@ -20,7 +20,7 @@ DialogHeight=540
 DialogWidth=720
 
 [Containments][1][General]
-positions={"1920x1080":["9","17","desktop:/firefox.desktop","8","0","desktop:/discord.desktop","8","16","desktop:/code-oss.desktop","0","15","desktop:/idea.desktop","1","16","desktop:/org.wireshark.Wireshark.desktop","0","16"]}
+positions={"1920x1080":["9","17","desktop:/org.wireshark.Wireshark.desktop","0","16","desktop:/idea.desktop","1","16","desktop:/firefox.desktop","8","0","desktop:/code-oss.desktop","0","15","desktop:/discord.desktop","8","16"]}
 sortMode=-1
 
 [Containments][1][Wallpaper][org.kde.image][General]
@@ -155,14 +155,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][8][Applets][22][Configuration]
-PreloadWeight=23
+PreloadWeight=0
 
 [Containments][8][Applets][23]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][8][Applets][23][Configuration]
-PreloadWeight=18
+PreloadWeight=0
 
 [Containments][8][Applets][24]
 immutability=1
@@ -176,7 +176,7 @@ immutability=1
 plugin=org.kde.plasma.bluetooth
 
 [Containments][8][Applets][25][Configuration]
-PreloadWeight=15
+PreloadWeight=0
 
 [Containments][8][Applets][9]
 immutability=1
@@ -194,4 +194,4 @@ shownItems=org.kde.plasma.volume,org.kde.plasma.networkmanagement,org.kde.plasma
 
 [ScreenMapping]
 itemsOnDisabledScreens=
-screenMapping=desktop:/discord.desktop,0,bffcbd6b-aa69-4dd3-ae85-8de94feb7539,desktop:/code-oss.desktop,0,bffcbd6b-aa69-4dd3-ae85-8de94feb7539,desktop:/firefox.desktop,0,bffcbd6b-aa69-4dd3-ae85-8de94feb7539,desktop:/org.wireshark.Wireshark.desktop,0,bffcbd6b-aa69-4dd3-ae85-8de94feb7539,desktop:/idea.desktop,0,bffcbd6b-aa69-4dd3-ae85-8de94feb7539
+screenMapping=desktop:/org.wireshark.Wireshark.desktop,0,bffcbd6b-aa69-4dd3-ae85-8de94feb7539,desktop:/idea.desktop,0,bffcbd6b-aa69-4dd3-ae85-8de94feb7539,desktop:/firefox.desktop,0,bffcbd6b-aa69-4dd3-ae85-8de94feb7539,desktop:/code-oss.desktop,0,bffcbd6b-aa69-4dd3-ae85-8de94feb7539,desktop:/discord.desktop,0,bffcbd6b-aa69-4dd3-ae85-8de94feb7539

@@ -260,4 +260,4 @@ toggle do not disturb=none,,Attiva Non disturbare
 _launch=Ctrl+Alt+T
 
 [services][org.kde.konsole.desktop]
-_launch=
+_launch=none
