@@ -1,0 +1,8 @@
+[Adapters]
+10:68:38:B1:7F:DC_powered=true
+
+[Devices]
+connectedDevices=
+
+[Global]
+launchState=enable
