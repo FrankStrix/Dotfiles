@@ -69,9 +69,19 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 zstyle ':fzf-tab:complete:__zoxide_z:*' fzf-preview 'ls --color $realpath'
 
 # Aliases
-alias ls='ls --color'
-alias l='ls -hal --color'
+alias ls='eza --color=always --long --git --no-filesize --icons=always --no-time --no-user --no-permissions'
+alias l='eza --color=always --all --long --git --icons=always'
+alias in='sudo pacman -S' # install package
+alias iny='yay -S' # install package from the AUR using yay
+alias un='sudo pacman -Rns' # uninstall package
+alias up='sudo pacman -Syu' # update system/package/aur
+alias pl='pacman -Qs' # list installed package
+alias pa='pacman -Ss' # list availabe package
+alias pc='sudo pacman -Sc' # remove unused cache
 
 # Shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+#Display Pokemon
+pokemon-colorscripts --no-title -r 1,3,6
