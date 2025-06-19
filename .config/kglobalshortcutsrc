@@ -3,8 +3,8 @@ _k_friendly_name=Gestore delle attività
 switch-to-activity-bffcbd6b-aa69-4dd3-ae85-8de94feb7539=none,none,Passa all'attività «Predefinita»
 
 [KDE Keyboard Layout Switcher]
-Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,
-Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,
+Switch to Last-Used Keyboard Layout=Meta+Alt+L,Meta+Alt+L,Passa all'ultima mappatura di tastiera utilizzata
+Switch to Next Keyboard Layout=Meta+Alt+K,Meta+Alt+K,Passa alla mappatura di tastiera successiva
 _k_friendly_name=Selettore di mappature della tastiera
 
 [kaccess]
@@ -14,7 +14,7 @@ _k_friendly_name=Accessibilità
 [kcm_touchpad]
 Disable Touchpad=Touchpad Off,Touchpad Off,
 Enable Touchpad=Touchpad On,Touchpad On,
-Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,
+Toggle Touchpad=Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,Touchpad Toggle\tTouchpad Toggle\tMeta+Ctrl+Touchpad Toggle\tMeta+Ctrl+Zenkaku Hankaku,
 _k_friendly_name=Touchpad
 
 [kmix]
@@ -59,7 +59,7 @@ MoveZoomDown=none,none,Sposta l'area ingrandita in basso
 MoveZoomLeft=none,none,Sposta l'area ingrandita a sinistra
 MoveZoomRight=none,none,Sposta l'area ingrandita a destra
 MoveZoomUp=none,none,Sposta l'area ingrandita in alto
-Overview=Meta+W,Meta+W,Attiva/disattiva la panoramica
+Overview=none,Meta+W,Attiva/disattiva la panoramica
 Setup Window Shortcut=none,,Imposta scorciatoie finestra
 Show Desktop=Meta+D,Meta+D,Dai un'occhiata al desktop
 Switch One Desktop Down=Meta+Ctrl+Down,Meta+Ctrl+Down,Vai al desktop inferiore
@@ -239,25 +239,54 @@ activate task manager entry 6=Meta+6,Meta+6,Attiva voce 6 del gestore dei proces
 activate task manager entry 7=Meta+7,Meta+7,Attiva voce 7 del gestore dei processi
 activate task manager entry 8=Meta+8,Meta+8,Attiva voce 8 del gestore dei processi
 activate task manager entry 9=Meta+9,Meta+9,Attiva voce 9 del gestore dei processi
-clear-history=none,,Ripulisci la cronologia degli appunti
+clear-history=none,none,Ripulisci la cronologia degli appunti
 clipboard_action=Meta+Ctrl+X,Meta+Ctrl+X,Menu a comparsa delle azioni automatiche
 cycle-panels=Meta+Alt+P,Meta+Alt+P,Sposta il fuoco della tastiera tra i pannelli
-cycleNextAction=none,,Elemento successivo nella cronologia
-cyclePrevAction=none,,Elemento precedente nella cronologia
+cycleNextAction=none,none,Elemento successivo nella cronologia
+cyclePrevAction=none,none,Elemento precedente nella cronologia
 manage activities=Meta+Q,Meta+Q,Mostra il selettore delle attività
 next activity=Meta+A,none,Percorri le attività
 previous activity=Meta+Shift+A,none,Percorri le attività (inverso)
-repeat_action=none,,Invoca manualmente le azioni sugli appunti correnti
+repeat_action=none,none,Invoca manualmente le azioni sugli appunti correnti
 show dashboard=Ctrl+F12,Ctrl+F12,Mostra il desktop
-show-barcode=none,,Mostra il codice a barre…
+show-barcode=none,none,Mostra il codice a barre…
 show-on-mouse-pos=Meta+V,Meta+V,Mostra gli elementi degli appunti alla posizione del mouse
 stop current activity=Meta+S,Meta+S,Ferma l'attività attuale
 switch to next activity=none,,Passa all'attività successiva
 switch to previous activity=none,,Passa all'attività precedente
-toggle do not disturb=none,,Attiva Non disturbare
+toggle do not disturb=none,none,Attiva Non disturbare
 
-[services][Alacritty.desktop]
+[services][code.desktop]
+_launch=Ctrl+Alt+V
+
+[services][firefox.desktop]
+_launch=Ctrl+Alt+F
+
+[services][kitty.desktop]
 _launch=Ctrl+Alt+T
+
+[services][net.local.wofi.desktop]
+_launch=Meta+W
+
+[services][org.kde.dolphin.desktop]
+_launch=Ctrl+Alt+D
 
 [services][org.kde.konsole.desktop]
 _launch=none
+
+[services][org.wireshark.Wireshark.desktop]
+_launch=Ctrl+Alt+W
+
+[services][systemsettings.desktop]
+_launch=Ctrl+Alt+C
+
+[wacomtablet]
+Map to fullscreen=Meta+Ctrl+F,Meta+Ctrl+F,Associa a schermo intero
+Map to screen 1=Meta+Ctrl+1,Meta+Ctrl+1,Associa allo schermo 1
+Map to screen 2=Meta+Ctrl+2,Meta+Ctrl+2,Associa allo schermo 2
+Next Profile=Meta+Ctrl+N,Meta+Ctrl+N,Profilo successivo
+Previous Profile=Meta+Ctrl+P,Meta+Ctrl+P,Profilo precedente
+Toggle screen map selection=Meta+Ctrl+M,Meta+Ctrl+M,Commuta tra tutti gli schermi
+Toggle stylus mode=Meta+Ctrl+S,Meta+Ctrl+S,Commuta lo stilo da relativo ad assoluto
+Toggle touch tool=Meta+Ctrl+T,Meta+Ctrl+T,Abilita/disabilita lo strumento tattile
+_k_friendly_name=Tavoletta Wacom

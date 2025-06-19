@@ -1,10 +1,88 @@
 <application>
   <component name="ActionsLocalSummary">
+    <e n="$Undo">
+      <i c="15" l="1746431218359" />
+    </e>
+    <e n="Documentation.EditSource">
+      <i c="1" l="1746430046059" />
+    </e>
+    <e n="EditorBackSpace">
+      <i c="84" l="1746432839401" />
+    </e>
+    <e n="EditorChooseLookupItemReplace">
+      <i c="5" l="1746431170471" />
+    </e>
+    <e n="EditorCopy">
+      <i c="1" l="1746430065918" />
+    </e>
+    <e n="EditorDown">
+      <i c="2" l="1746431174444" />
+    </e>
+    <e n="EditorEnter">
+      <i c="9" l="1746431175092" />
+    </e>
+    <e n="EditorLeft">
+      <i c="18" l="1746431174752" />
+    </e>
+    <e n="EditorRight">
+      <i c="17" l="1746431185640" />
+    </e>
+    <e n="EditorUp">
+      <i c="2" l="1746431175352" />
+    </e>
+    <e n="InvalidateCaches">
+      <i c="1" l="1746430158117" />
+    </e>
+    <e n="MoreRunToolbarActions">
+      <i c="1" l="1746429293072" />
+    </e>
+    <e n="RedesignedRunConfigurationSelector">
+      <i c="3" l="1747035437277" />
+    </e>
+    <e n="Run">
+      <i c="15" l="1747035431374" />
+    </e>
+    <e n="RunClass">
+      <i c="2" l="1747035394252" />
+    </e>
+    <e n="SettingsEntryPoint">
+      <i c="1" l="1746429294688" />
+    </e>
+    <e n="ShowProjectStructureSettings">
+      <i c="1" l="1746430115022" />
+    </e>
+    <e n="Stop">
+      <i c="2" l="1747035434744" />
+    </e>
     <e n="WelcomeScreen.CreateNewProject">
-      <i c="1" l="1739733379374" />
+      <i c="2" l="1746429011295" />
     </e>
     <e n="WelcomeScreen.OpenProject">
       <i c="1" l="1739733382348" />
+    </e>
+    <e n="com.intellij.openapi.actionSystem.impl.MoreActionGroup">
+      <i c="1" l="1746429764876" />
+    </e>
+    <e n="com.intellij.openapi.editor.impl.EditorMarkupModelImpl$TrafficLightAction">
+      <i c="1" l="1746429748785" />
+    </e>
+    <e n="com.intellij.openapi.fileEditor.impl.tabActions.CloseTab">
+      <i c="2" l="1746430049776" />
+    </e>
+    <e n="com.intellij.openapi.updateSettings.impl.UpdateSettingsEntryPointActionProvider$IdeUpdateAction">
+      <i c="1" l="1746429298468" />
+    </e>
+    <e n="com.intellij.openapi.wm.impl.customFrameDecorations.header.toolbar.MainMenuButton$ShowMenuAction">
+      <i c="6" l="1746432851322" />
+    </e>
+    <e n="com.intellij.toolWindow.ToolWindowHeader$HideAction">
+      <i c="2" l="1746430956728" />
+    </e>
+    <e n="com.intellij.xdebugger.impl.breakpoints.RemoveBreakpointGutterIconAction">
+      <i c="1" l="1746429244611" />
+    </e>
+    <e n="editRunConfigurations">
+      <i c="1" l="1747035440099" />
     </e>
   </component>
 </application>

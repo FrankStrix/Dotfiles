@@ -1,4 +1,5 @@
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+pokemon-colorscripts --no-title -r 1,3,6
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -83,5 +84,3 @@ alias pc='sudo pacman -Sc' # remove unused cache
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
 
-#Display Pokemon
-pokemon-colorscripts --no-title -r 1,3,6

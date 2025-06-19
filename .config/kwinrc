@@ -1,6 +1,11 @@
+[Activities][LastVirtualDesktop]
+bffcbd6b-aa69-4dd3-ae85-8de94feb7539=0d804278-22fc-4603-979a-a19b5f17b679
+
 [Desktops]
 Id_1=13ec45b1-4005-4789-b8ce-16fbeeb412bf
-Number=1
+Id_2=0d804278-22fc-4603-979a-a19b5f17b679
+Id_3=b7501f8b-7403-4582-bf43-c2ec0d7d263a
+Number=3
 Rows=1
 
 [Tiling]
